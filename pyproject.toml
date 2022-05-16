@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "balloon-blow"
+version = "0.1.0"
+description = "A game created for Ludum Dare 50 game jam with theme \"Delay the inevitable\""
+authors = ["Francisco <fvcneto.master98@gmail.com>"]
+license = "MIT license"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
